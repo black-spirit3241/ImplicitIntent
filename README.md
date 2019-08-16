@@ -1,2 +1,2 @@
-# ImplicitIntent
+# Implicit Intent
 Implicit Intent Assignment
