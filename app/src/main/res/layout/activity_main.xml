@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:layout_margin="10dp">
+
+  <VideoView
+      android:id="@+id/videoView"
+      android:layout_width="match_parent"
+      android:layout_height="150dp" />
+
+    <Button
+        android:id="@+id/btnChooseVideo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Choose Video"
+        android:textAllCaps="false"
+        android:background="@color/colorPrimary"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/txtContactInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="18sp"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="15dp"/>
+
+   <Button
+      android:id="@+id/btnChooseContact"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Choose Contact"
+      android:textAllCaps="false"
+      android:background="@color/colorPrimary"
+      android:textColor="@android:color/white"
+      android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/btnAddEvent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Event"
+        android:textAllCaps="false"
+        android:background="@color/colorPrimary"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="15dp"/>
+
+    <EditText
+        android:id="@+id/searchEdt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Search.."
+        android:textSize="18sp"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="15dp"/>
+
+    <Button
+        android:id="@+id/btnWebSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Search"
+        android:textAllCaps="false"
+        android:background="@color/colorPrimary"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="10dp"/>
+
+
+    <Button
+        android:id="@+id/btnSetTimer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Set Timer"
+        android:textAllCaps="false"
+        android:background="@color/colorPrimary"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="15dp"/>
+
+
+</LinearLayout>
